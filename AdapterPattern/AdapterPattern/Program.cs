@@ -14,7 +14,7 @@ namespace AdapterPattern
             Console.WriteLine("Radius of hole is " + radius);
             Console.WriteLine();
 
-            Console.WriteLine("Enter circle radius");
+            Console.WriteLine("Enter circle radius:");
 
             CirclePeg rPeg = new CirclePeg(int.Parse(Console.ReadLine()));
 
